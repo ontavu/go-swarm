@@ -1,0 +1,13 @@
+# Test binaries and profiles: `go test -c`, `-coverprofile`, `-cpuprofile`.
+*.test
+*.out
+*.prof
+
+# A workspace belongs to whoever develops several modules together -- see
+# AGENTS.md -- and never to this repository.
+go.work
+go.work.sum
+
+.idea
+*.swp
+*.swo
